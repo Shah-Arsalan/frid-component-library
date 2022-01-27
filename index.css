@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.brand{
+    background-color:#85DCBA;
+        padding: 2rem;
+}
+.brand h1{
+    font-size: xx-large;
+}
+
+.home-details{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
