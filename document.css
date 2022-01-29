@@ -33,3 +33,33 @@ color: var(--primary-color);
     grid-area: web-body;
     padding: 1rem;
 }
+
+
+
+.iframe-container{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 500px;
+    padding: 1rem 0;
+    background-color: #FAFAFA;
+    margin: 2rem 0;
+    overflow: auto; 
+    width: 100%; 
+    /* margin-top: 2rem;
+width: 100%;
+height: 100%; */
+}
+
+.iframe-container iframe{
+    width: 100%;
+    border: none; 
+   transform: scale(1);
+   overflow: hidden;
+   height: 100%;
+   
+}
+
+
+/* code{
+    background-color: var(--primary-color);
+} */
