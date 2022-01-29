@@ -1,0 +1,17 @@
+.large{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.medium{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.small{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
