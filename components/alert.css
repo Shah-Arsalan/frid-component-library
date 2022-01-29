@@ -1,0 +1,28 @@
+.alert{
+
+width: 20rem;
+padding: 0.8rem;
+border-radius: 5px;
+display: flex;
+gap: 2rem;
+}
+
+.normal{
+    background-color: rgb(203, 203, 224);
+    color: rgb(65, 65, 185);
+}
+
+.success{
+    background-color: rgb(213, 233, 183);
+    color: green;
+}
+
+.warning{
+    background-color: rgb(243, 243, 169);
+    color: rgb(116, 116, 91);
+}
+
+.error{
+    background-color: rgb(238, 138, 138);
+    color: #a11f1f;
+}
