@@ -1,22 +1,94 @@
+@import url(/Buttons/buttons.css);
+@import url(/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind:wght@300&family=Open+Sans:wght@300&family=Raleway:ital,wght@1,300&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
 }
 
+
+
+
+
 .brand{
-    background-color:#85DCBA;
-        padding: 2rem;
-}
-.brand h1{
-    font-size: xx-large;
+    height: 15vh;
+    background-color: hotpink;
+    align-items: center;
+    display: flex;
+    background-color:white;
+    color: var(--primary-color);
+    box-shadow: 1px 1px 1px 1px #DDDDDD;
+    justify-content: space-between;
 }
 
-.home-details{
+.brand-name{
+    color: var(--primary-color);
+    font-size: 3rem;
+    padding: 0 1rem;
+}
+
+
+
+
+.text{
     display: flex;
-    flex-direction: column;
-    width:300px;
-    margin: auto;
-    margin-top: 50px;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    gap: 1rem;
+    font-weight: 800;
+}
+
+
+.big-container{
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.logo{
+    margin-top: 1rem;
+
+}
+
+/* .logo-image{
+width: 300px;
+} */
+
+.details-paragraph{
+    max-width: 600px;
+    text-align: center;
+    margin: 2rem auto;
+    color: var(--text-color);
+   font-weight: 800;
+}
+
+.fa-angle-double-down{
+    color: var(--primary-color);
+}
+
+.button-container{
+    
+    text-align: center;
+    gap: 1rem;
+}
+
+.footer{
+    display: flex;
+    margin-top: 5rem;
+    background-color: var(--secondary-color);
+    padding: 5rem;
+    justify-content: center;
+}
+
+.no-border{
+    border: transparent;
+}
+
+.border-socials{
+    background-color: var(--secondary-color);
+    font-size: x-large;
 }
