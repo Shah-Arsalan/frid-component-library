@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind:wght@300&family=Open+Sans:wght@300&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+@import url(/components/avatar.css);
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    font-size: 62.5%;
+} */
+
+/* *********************Colors*********************** */
+
+:root {
+    --primary-color: #9dcfbc;
+    --secondary-color: #41B3A3;
+    --text-color: #808680;
+    --headings-color:rgb(80, 77, 77);
+  }
+
+  /* ******************* Typography*************** */
+
+.large-heading-text{
+    font-size: 3rem;
+    color: var(--headings-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.small-heading-text{
+    font-size: 2rem;
+    color: var(--headings-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.large-paragraph-text{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-family: 'Hind', sans-serif;
+}
+
+.small-paragraph-text{
+    font-size: 1rem;
+    color: var(--text-color);
+    font-family: 'Hind', sans-serif;
+}
+
+
+/**************************Spacing  *************************/
+
+.spacing-xs{
+   padding: 0.5rem; 
+}
+
+.spacing-s{
+    padding: 0.5rem; 
+ }
+ .spacing-m{
+    padding: 0.5rem; 
+ }
+ .spacing-l{
+    padding: 0.5rem; 
+ }
+ .spacing-xl{
+    padding: 0.5rem; 
+ }
+/* *********************Border *************** */
+
