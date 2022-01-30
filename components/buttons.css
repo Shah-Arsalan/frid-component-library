@@ -58,12 +58,16 @@ color:#85DCBA;
 border-radius: 0.5rem;
 }
 
+.icon-button:hover{
+    background-color: #d3e2dc;
+}
+
 .floating-action-button{
     padding: 1rem;
     border-radius: 50%;
     border: 1px transparent;
     background-color: #85DCBA;
    box-shadow:  10px 10px 5px #aaaaaa;
-    position: fixed;
+    /* position: fixed; */
     
 }
