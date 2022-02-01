@@ -7,6 +7,7 @@
 @import url(components/buttons.css);
 @import url(/components/images.css);
 @import url(/components/card.css);
+@import url(/components/input.css);
 
 *{
     margin: 0;
