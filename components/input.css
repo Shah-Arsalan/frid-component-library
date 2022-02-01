@@ -1,0 +1,32 @@
+.input {
+    color:grey;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    width: 70%;
+    margin: 1rem;
+  }
+ 
+  .input-txt {
+    border: 1px solid grey;
+    padding: 0.6rem 0.7rem;
+    width: 100%;
+    border-radius: 2px;
+  }
+.radio,input[type=radio]{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    font-size: 1rem;
+    
+}
+input[type="password"] {
+  border: 1px solid red;
+}
+.textarea {
+  border-color: grey;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.input-error {
+  color: red;
+}
