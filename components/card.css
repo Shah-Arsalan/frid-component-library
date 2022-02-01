@@ -1,21 +1,11 @@
 @import url(/main.css);
 
-.megaContainer{
-    margin-top: 2rem;
-    display: flex;
-   gap: 2rem;
-   align-items: center;
-   flex-wrap: wrap;
-   padding-left: 5rem;
- 
-}
 
 .card-skeleton{
     width: 15.625rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* margin: 5rem 0; */
     background-color: white;
    height: min-content;
 
@@ -44,8 +34,6 @@
 
 .content{
     padding-left: 1rem;
-
-    /* font-family: 'Raleway', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     color: rgb(113, 134, 103);
     text-align: center;
@@ -58,9 +46,7 @@
     }
     
 .card-content{
-        /* font-family: 'Raleway', sans-serif; */
         font-family: 'Open Sans', sans-serif;
-        /* padding: 1rem 1rem 1rem; */
         text-align: center;
         margin-top: 0.5rem;
     }
@@ -108,8 +94,7 @@ color: red;
 .horizontal-card{
     display: flex;
     flex-direction: row;
-    width: 30rem;
-    
+    width: 30rem;   
 }
 
 .horizontal-card-content{
@@ -153,8 +138,6 @@ border: 1px solid;
 
 .text-overlay-container{
     position: relative;
-    
-  
 }
 
 
@@ -172,7 +155,6 @@ padding: .3rem;
 
 .border{
     border: 1px solid grey;
-
 }
 
 
@@ -233,36 +215,7 @@ color: red;
 
 
 
-/* ***************** For card 4 ***************** */
 
-
-
-/* 
-.start{
-   justify-content: flex-start;
-}
-
-.fourth-buttons{
-    padding-left: 1.5rem;
-} */
-
-
-/* ***************** For card 5 ***************** */
-
-
-
-
-
-/* .footer-fifth{
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    padding-top: 1rem;
-}
-
-.fifth{
-    padding: 1rem; 
-}/*
 
 
 
