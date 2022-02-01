@@ -4,6 +4,7 @@
 @import url(/components/badges.css);
 @import url(components/buttons.css);
 @import url(/components/images.css);
+@import url(/components/card.css);
 
 *{
     margin: 0;

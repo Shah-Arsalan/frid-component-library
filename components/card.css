@@ -1,0 +1,256 @@
+@import url(/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+*{
+padding: 0;
+    margin: 0;
+}
+
+.megaContainer{
+    margin-top: 2rem;
+    display: flex;
+   gap: 2rem;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-left: 5rem;
+ 
+}
+
+.card-skeleton{
+    width: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 5rem 0; */
+    background-color: white;
+   height: min-content;
+
+}
+
+.image{
+    width: 100%;
+}
+
+.footer-button{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 1rem;
+
+}
+
+.card-button{
+    width: 100%;
+   background-color: var(--primary-color);
+    padding: 1rem;
+    border: transparent;
+}
+
+.content{
+    padding-left: 1rem;
+
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(113, 134, 103);
+    text-align: center;
+    margin: 0.5rem;
+
+}
+
+.small{
+        font-size: small;
+    }
+    
+.card-content{
+        /* font-family: 'Raleway', sans-serif; */
+        font-family: 'Open Sans', sans-serif;
+        /* padding: 1rem 1rem 1rem; */
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    
+    .padding-1rem{
+        padding-top: 1rem;
+    }
+
+.heart-icon{
+    top: 10px;
+    position: absolute;
+    right: 10px;
+    color: rgb(78, 65, 65);
+}
+.heart-icon:hover{
+color: red;
+}
+
+
+
+.heart-horizontal{
+    left: 10px;
+}
+/* ***************** horizontalcard 6 ***************** */
+
+
+
+.image-horizontal{
+    width: 100%;
+   
+}
+
+.horizontal-card{
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    
+}
+
+.horizontal-card-content{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(113, 134, 103);
+    display: flex;
+width: 100%;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.horizontal-card-buttons{
+    width:11rem ;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    border: transparent;
+}
+
+.quantity-button{
+    width: 1rem;
+    height: 1rem;
+background-color: rgb(119, 127, 128);
+border: 1px solid;
+}
+
+.quantity{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* **** **************************   text overlay ********************  */
+
+
+.text-overlay-container{
+    position: relative;
+    
+  
+}
+
+
+.text-overlay-content{
+    position: absolute;
+ bottom: 0.5rem;
+font-family: 'Raleway', sans-serif;
+background-color: rgb(185, 165, 204);
+padding: .3rem;
+}
+
+
+
+/*********************** text only  *********************************/
+
+.border{
+    border: 1px solid grey;
+
+}
+
+
+
+/* *****shadow card ****** */
+
+.shadow-card{
+    box-shadow: 1px 3px 3px 1px rgb(14, 2, 2);
+}
+
+
+
+/* ******************dismiss card************* */
+
+.position-relative{
+    position: relative;
+}
+
+
+.dismiss-icon{
+    top: 0;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***************** For card 4 ***************** */
+
+
+
+/* 
+.start{
+   justify-content: flex-start;
+}
+
+.fourth-buttons{
+    padding-left: 1.5rem;
+} */
+
+
+/* ***************** For card 5 ***************** */
+
+
+
+
+
+/* .footer-fifth{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding-top: 1rem;
+}
+
+.fifth{
+    padding: 1rem; 
+}/*
+
+
+
+
