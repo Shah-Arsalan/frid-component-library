@@ -1,0 +1,222 @@
+@import url(/main.css);
+
+
+.card-skeleton{
+    width: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+   height: min-content;
+
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-button{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 1rem;
+
+}
+
+.card-button{
+    width: 100%;
+   background-color: var(--primary-color);
+    padding: 1rem;
+    border: transparent;
+    cursor: pointer;
+}
+
+.content{
+    padding-left: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(113, 134, 103);
+    text-align: center;
+    margin: 0.5rem;
+
+}
+
+.small{
+        font-size: small;
+    }
+    
+.card-content{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    
+    .padding-1rem{
+        padding-top: 1rem;
+    }
+
+.heart-icon{
+    top: 10px;
+    position: absolute;
+    right: 10px;
+    color: rgb(78, 65, 65);
+    cursor: pointer;
+}
+.heart-icon:hover{
+color: red;
+}
+
+
+
+.heart-horizontal{
+    left: 10px;
+}
+
+.border-black{
+    border: 1px solid black;
+}
+
+
+.flex-justify-center{
+    display: flex;
+    justify-content: center;
+}
+/* ***************** horizontalcard 6 ***************** */
+
+
+
+.image-horizontal{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.horizontal-card{
+    display: flex;
+    flex-direction: row;
+    width: 30rem;   
+}
+
+.horizontal-card-content{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(113, 134, 103);
+    display: flex;
+width: 100%;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.horizontal-card-buttons{
+    width:11rem ;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    border: transparent;
+    cursor: pointer;
+}
+
+.quantity-button{
+    width: 1rem;
+    height: 1rem;
+background-color: rgb(119, 127, 128);
+border: 1px solid;
+}
+
+.quantity{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* **** **************************   text overlay ********************  */
+
+
+.text-overlay-container{
+    position: relative;
+}
+
+
+.text-overlay-content{
+    position: absolute;
+ bottom: 0.5rem;
+font-family: 'Raleway', sans-serif;
+background-color: rgb(185, 165, 204);
+padding: .3rem;
+}
+
+
+
+/*********************** text only  *********************************/
+
+.border{
+    border: 1px solid grey;
+}
+
+
+
+/* *****shadow card ****** */
+
+.shadow-card{
+    box-shadow: 1px 3px 3px 1px rgb(14, 2, 2);
+}
+
+
+
+/* ******************dismiss card************* */
+
+.position-relative{
+    position: relative;
+}
+
+
+.dismiss-icon{
+    top: 0;
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.dismiss-icon:hover{
+color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
