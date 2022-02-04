@@ -39,8 +39,8 @@
 /* ******************* For short always collapsed *****************/
 
 .nav-container-short-always-collapsed{
-    display: flex;
-    background-color: var(--primary-color);
+display: flex;
+background-color: var(--primary-color);
 width: 7rem;
 padding: 1rem;
 justify-content: space-evenly;
