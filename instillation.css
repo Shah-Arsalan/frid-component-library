@@ -1,0 +1,21 @@
+@import url(main.css);
+@import url(index.css);
+
+
+
+.instillation-details{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+.instillation-guide{
+    /* width: 40rem; */
+    max-width: 40rem;
+    text-align: center;
+    display: flex;
+}
+
+
