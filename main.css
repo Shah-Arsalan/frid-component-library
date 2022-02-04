@@ -20,8 +20,10 @@
 /* *********************Colors*********************** */
 
 :root {
-    --primary-color: #9dcfbc;
-    --secondary-color: #41B3A3;
+    /* --primary-color: #97e7c9;
+    --secondary-color: #41B3A3; */
+--primary-color:#41B3A3;
+--secondary-color: #262c22;
     --text-color: #808680;
     --headings-color:rgb(80, 77, 77);
     --carbon-background-color:white;

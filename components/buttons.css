@@ -31,7 +31,7 @@
     border-radius: 0.5rem;
     color: var(--primary-color); 
  text-decoration: none;
-
+cursor: pointer;
 }
 
 .secondary-button:hover{
