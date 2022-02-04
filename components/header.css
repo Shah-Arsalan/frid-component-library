@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.all-headers{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.nav-container{
+    display: flex;
+    width: 100%;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    color: var(--white);
+}
+
+
+.left-padding{
+    padding-left: 1rem;
+}
+
+
+.nav-container div:first-child{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* ******************* For short always collapsed *****************/
+
+.nav-container-short-always-collapsed{
+    display: flex;
+    background-color: var(--primary-color);
+width: 7rem;
+padding: 1rem;
+justify-content: space-evenly;
+border-bottom-right-radius: 1rem;
+color: var(--white)
+}
+
+/* *******************Prominent***************** */
+
+
+.title-prominent{
+    margin-top: 3rem;
+}
+
+.prominent-padding{
+    padding-bottom: 2rem;
+}

@@ -8,6 +8,7 @@
 @import url(/components/images.css);
 @import url(/components/card.css);
 @import url(/components/input.css);
+@import url(/components/header.css);
 
 *{
     margin: 0;
