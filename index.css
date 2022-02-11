@@ -51,7 +51,8 @@
 
 .logo{
     margin-top: 1rem;
-
+    width: 100%;
+    max-width: 500px;
 }
 
 /* .logo-image{
