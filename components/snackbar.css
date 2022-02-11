@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Source+Code+Pro:ital,wght@1,200&display=swap');
-
-*{
-    margin: 0;
-    box-sizing: border-box;
-}
-
+@import url(/main.css);
 .snackbar{
     display: flex;
     background-color: #333;
@@ -18,7 +13,7 @@
 }
 
 h5:nth-last-child(2){
-    color: blueviolet;
+    color: var(--primary-color);
     cursor: pointer;
 }
 
