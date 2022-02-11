@@ -29,6 +29,11 @@ margin-top: 1rem;
 color: var(--primary-color);
 }
 
+.scroll-link{
+text-decoration: none;
+color: var(--primary-color);
+}
+
 .web-body{
     grid-area: web-body;
     padding: 1rem;
@@ -75,6 +80,9 @@ height: 100%; */
    height: 100%;
 }
 
+.brand a{
+    text-decoration: none;
+}
 
 /* code{
     background-color: var(--primary-color);

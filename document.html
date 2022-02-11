@@ -17,7 +17,9 @@
     <div class="parent-container">
 
         <nav class="brand header">
-            <h1 class="brand-name large-heading-text">frid.</h1>
+            <a href="/index.html">
+                <h1 class="brand-name large-heading-text">frid.</h1>
+            </a>
 
             <div class="socials">
                 <a class="secondary-button" href="/instillation.html">Instillation</a>
@@ -39,38 +41,68 @@
 
                 <div class="component-child">
                     <i class="far fa-user-circle"></i>
-                    <h3 class="component-content">Avatar</h3>
+                    <a class="scroll-link" href="#avatars">
+                        <h3 class="component-content">Avatar</h3>
+                    </a>
                 </div>
 
                 <div class="component-child">
                     <i class="fas fa-bell"></i>
-                    <h3 class="component-content">Alert</h3>
+                    <a class="scroll-link" href="#alerts">
+                        <h3 class="component-content">Alert</h3>
+                    </a>
                 </div>
 
                 <div class="component-child">
                     <i class="fas fa-comment"></i>
-                    <h3 class="component-content">Badge</h3>
+                    <a class="scroll-link" href="#badges">
+                        <h3 class="component-content">Badge</h3>
+                    </a>
                 </div>
 
                 <div class="component-child">
                     <i class="fas fa-hand-pointer"></i>
-                    <h3 class="component-content">Button</h3>
+                    <a class="scroll-link" href="#buttons">
+                        <h3 class="component-content">Button</h3>
+                    </a>
                 </div>
 
                 <div class="component-child">
                     <i class="fas fa-portrait"></i>
-                    <h3 class="component-content">Card</h3>
+                    <a class="scroll-link" href="#cards">
+                        <h3 class="component-content">Card</h3>
+                    </a>
                 </div>
 
                 <div class="component-child">
                     <i class="far fa-images"></i>
-                    <h3 class="component-content">Image</h3>
+                    <a class="scroll-link" href="#imgs">
+                        <h3 class="component-content">Image</h3>
+                    </a>
                 </div>
 
                 <div class="component-child">
                     <i class="far fa-keyboard"></i>
-                    <h3 class="component-content">Input</h3>
+                    <a class="scroll-link" href="#inputs">
+                        <h3 class="component-content">Input</h3>
+                    </a>
                 </div>
+
+                <div class="component-child">
+                    <i class="fas fa-bars"></i>
+                    <a class="scroll-link" href="#headers">
+                        <h3 class="component-content">Headers</h3>
+                    </a>
+                </div>
+
+                <div class="component-child">
+                    <i class="fas fa-list"></i>
+                    <a class="scroll-link" href="#lists">
+                        <h3 class="component-content">Lists</h3>
+                    </a>
+                </div>
+
+
 
             </div>
         </div>
@@ -79,9 +111,13 @@
 
 
         <div class="web-body">
-            <div class="avatar-component">
+            <div class="avatar-component" id="avatars">
                 <h1 class="large-heading-text spacing-xs">Avatar</h1>
-                <div class="image-box border-2px">
+
+                <p class="small-paragraph-text spacing-s">Avatar is mainly used to show user's profile picture usually
+                    in circular
+                    or semi-square shape</p>
+                <div class="image-box flex-direction-row flex-justify-center border-2px spacing-m">
 
                     <img class="avatar-large border-radius-50percent" src="/images/avatar.png" alt="avatar">
                     <img class="avatar-medium border-radius-50percent" src="/images/avatar.png" alt="avatar">
@@ -105,8 +141,11 @@
 
             <hr>
 
-            <div class="alert-component">
+            <div class="alert-component" id="alerts">
                 <h1 class="large-heading-text spacing-xs">Alert</h1>
+                <p class="small-paragraph-text spacing-s">Alerts are used to attract user's attraction for important
+                    information
+                    without interrupting the user's flow.</p>
                 <div class="image-box border-2px">
 
                     <div class="alert normal margin-1rem"><i class="fas fa-info-circle"></i>This is a normal alert</div>
@@ -132,16 +171,20 @@
 
             </div>
 
+            <hr>
 
-
-            <div class="badge-component">
+            <div class="badge-component" id="badges">
 
                 <h1 class="large-heading-text">Badges:</h1>
+
+                <p class="small-paragraph-text spacing-s">Badge are small circles, positioned either at the top-right or
+                    bottom
+                    right of the parent components. Badge can be used to display numbers, online/offline status</p>
 
 
                 <div class="text-with-badge large-paragraph-text ">
 
-                    <p class="small-heading-text margin-1rem">Text with Badges:</p>
+                    <p class="small-heading-text margin-1rem"> &#9679 Text with Badges:</p>
                     <div class="all-badges border-2px">
                         <div class="first-badge relative-container">
                             <h3>Text with a badge</h3>
@@ -170,12 +213,13 @@
 
 
                 <div class="button-with-badge large-paragraph-text">
-                    <p class="small-heading-text margin-1rem">Button with badge:</p>
+                    <p class="small-heading-text margin-1rem"> &#9679 Button with badge:</p>
 
-                    <div class="all-badges border-2px">
+
+                    <div
+                        class="all-badges flex-direction-row  flex-justify-center flex-direction-row border-2px badge-button">
 
                         <div class="third-badge relative-container">
-                            <h3>Button with a badge</h3>
 
                             <div class="relative-button-container">
                                 <button class="btn">Action</button>
@@ -201,14 +245,12 @@
 
 
                 <div class="icon-with-badge large-paragraph-text">
-                    <p class="small-heading-text margin-1rem">Icon with a badge:</p>
+                    <p class="small-heading-text margin-1rem"> &#9679 Icon with a badge:</p>
 
-                    <div class="all-badges border-2px">
+                    <div class="all-badges flex-direction-row flex-justify-center border-2px">
 
-                        <div class="relative-container">
-                            <h3>Icons with a badge</h3>
-
-                            <div class="relative-button-container">
+                        <div class="relative-container flex-justify-center">
+                            <div class="relative-button-container ">
                                 <i class="fas fa-home"></i>
                                 <p class="button-badge icon-badge">4</p>
                             </div>
@@ -233,9 +275,9 @@
 
 
                 <div class="profile-badge large-paragraph-text">
-                    <p class="small-heading-text margin-1rem">Profile Badges:</p>
+                    <p class="small-heading-text margin-1rem"> &#9679 Profile Badges:</p>
 
-                    <div class="all-badges border-2px">
+                    <div class="all-badges flex-direction-row flex-justify-center   border-2px">
 
                         <div class="relative-container">
                             <img class="profile-badge-large" src="/images/shadow.jpg" alt="">
@@ -261,16 +303,17 @@
                 </div>
             </div>
 
+            <hr>
 
-            <div class="button-component">
+            <div class="button-component" id="buttons">
 
                 <h1 class="large-heading-text">Buttons</h1>
 
-                <p class="large-paragraph-text">Primary,Link,Icon& Floating Action Button</p>
+                <p class="large-paragraph-text spacing-s">Primary,Link,Icon& Floating Action Button</p>
 
 
 
-                <div class="buttons border-2px spacing-m">
+                <div class="buttons border-2px flex-justify-center flex-direction-row spacing-m">
 
                     <button class="primary-button">Primary</button>
 
@@ -302,28 +345,37 @@
 
             </div>
 
-            <div class="images-component">
+            <hr>
+
+            <div class="images-component" id="imgs">
                 <h1 class="large-heading-text">Images</h1>
-                <p class="small-heading-text margin-1rem">Responsive Image</p>
+                <p class="small-heading-text margin-1rem"> &#9679 Responsive Image</p>
+                <p class="small-paragraph-text spacing-s">Responsive image makes images screen responsive.They expand
+                    upto the
+                    width of the container they are in.</p>
                 <div class="responsive-image-container border-2px">
                     <img class="responsive-image" src="/images/minnie-zhou-E_Kj4xOBRR4-unsplash.jpg"
                         alt="responsive-image">
                 </div>
 
-                <p class="small-heading-text margin-1rem">Round Image</p>
+                <p class="small-heading-text margin-1rem"> &#9679 Round Image</p>
+                <p class="small-paragraph-text spacing-s">Just put round-image class to your image tag.</p>
 
                 <img class="round-image border-2px" src="/images/minnie-zhou-E_Kj4xOBRR4-unsplash.jpg" alt="">
 
             </div>
 
-
+            <hr class="margin-1rem">
             <!-- ******************Card Component*********** -->
 
-            <div class="card-component">
+            <div class="card-component" id="cards">
 
                 <h1 class="large-heading-text">Cards</h1>
+                <p class="small-paragraph-text spacing-s">Card are used to show user related data collectively.These
+                    custom cards
+                    are flexible with user given width and height.</p>
 
-                <p class="small-heading-text spacing-xs">Vertical Card</p>
+                <p class="small-heading-text spacing-m"> &#9679 Vertical Card</p>
 
 
                 <div class="vertical-card-component border-2px spacing-m flex-justify-center">
@@ -349,7 +401,7 @@
                 </div>
 
 
-                <p class="small-heading-text spacing-xs">Horizontal card</p>
+                <p class="small-heading-text spacing-m"> &#9679 Horizontal card</p>
 
                 <div class="horizontal-card-component border-2px spacing-m flex-justify-center">
 
@@ -380,7 +432,7 @@
 
                 </div>
 
-                <p class="small-heading-text spacing-xs">Card with Text overlay</p>
+                <p class="small-heading-text spacing-m"> &#9679 Card with Text overlay</p>
 
                 <div class="textOverlay-card-component border-2px spacing-m flex-justify-center">
 
@@ -407,7 +459,7 @@
                 </div>
 
 
-                <p class="small-heading-text spacing-xs">Text only card</p>
+                <p class="small-heading-text spacing-m"> &#9679 Text only card</p>
 
                 <div class="text-only-card-component border-2px spacing-m flex-justify-center">
 
@@ -433,7 +485,7 @@
                 </div>
 
 
-                <p class="small-heading-text spacing-xs">Card with shadow</p>
+                <p class="small-heading-text spacing-m"> &#9679 Card with shadow</p>
 
                 <div class="shadow-card-component border-2px spacing-m flex-justify-center">
 
@@ -460,7 +512,7 @@
                 </div>
 
 
-                <p class="small-heading-text spacing-xs">Dismiss Card</p>
+                <p class="small-heading-text spacing-m"> &#9679 Dismiss Card</p>
 
 
                 <div class="dismiss-card-component border-2px spacing-m flex-justify-center">
@@ -493,10 +545,13 @@
 
             </div>
 
+            <hr class="margin-1rem">
 
-
-            <div class="input-component">
+            <div class="input-component" id="inputs">
                 <h1 class="large-heading-text margin-1rem">Inputs</h1>
+                <p class="small-paragraph-text spacing-s">Inputs are necessary element for user interaction. Inputs are
+                    required
+                    to take inputs from user.</p>
                 <div class="all-input-components border-2px">
                     <div class="input">
                         <label>Name</label>
@@ -534,11 +589,14 @@
 
             </div>
 
+            <hr class="margin-1rem">
 
-
-            <div class="header-component">
+            <div class="header-component" id="headers">
 
                 <h1 class="large-heading-text margin-1rem">Headers/Navigation</h1>
+                <p class="small-paragraph-text spacing-s">Nvaigation bar is used to navigate through the web apps or
+                    websites.
+                </p>
 
                 <div class="all-headers border-2px spacing-xs">
 
@@ -609,12 +667,16 @@
 
             </div>
 
+            <hr class="margin-1rem">
 
-            <div class="list-component">
+            <div class="list-component" id="lists">
 
                 <h1 class="large-heading-text margin-1rem">Lists</h1>
+                <p class="small-paragraph-text spacing-s">Lists can be used at so many places, nav bar, stacked
+                    notifications etc.
+                </p>
 
-                <p class="small-heading-text">Radio List</p>
+                <p class="small-heading-text spacing-m">&#9679 Radio List</p>
 
                 <div class="radio-list border-2px spacing-m">
                     <div class="list-title">
@@ -644,7 +706,7 @@
                     </div>
                 </div>
 
-                <p class="small-heading-text">Checkbox List</p>
+                <p class="small-heading-text spacing-m"> &#9679 Checkbox List</p>
 
                 <div class="checheckbox-list border-2px spacing-m text-align-center">
                     <div class="list-title">

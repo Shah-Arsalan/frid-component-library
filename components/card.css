@@ -80,6 +80,7 @@ color: red;
 .flex-justify-center{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 /* ***************** horizontalcard 6 ***************** */
 
