@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind:wght@300&family=Open+Sans:wght@300&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&family=Source+Code+Pro:ital,wght@1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind:wght@300&family=Open+Sans:wght@300&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&family=Source+Code+Pro:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Source+Code+Pro:ital,wght@1,200&display=swap");
 @import url(index.css);
 @import url(/components/avatar.css);
 @import url(/components/alert.css);
@@ -13,92 +13,85 @@
 @import url(/components/list.css);
 @import url(/components/snackbar.css);
 
-
-
-
 @import url(/Drawer/drawer.css);
 
-*{
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
-
 
 /* *********************Colors*********************** */
 
 :root {
-    /* --primary-color: #97e7c9;
+  /* --primary-color: #97e7c9;
     --secondary-color: #41B3A3; */
---primary-color:#41B3A3;
---secondary-color: #262c22;
-    --text-color: #808680;
-    --headings-color:rgb(80, 77, 77);
-    --carbon-background-color:white;
-    --white:white;
-  }
-
-  /* ******************* Typography*************** */
-
-.large-heading-text{
-    font-size: 3rem;
-    color: var(--headings-color);
-    font-family: 'Open Sans', sans-serif;
+  --primary-color: #41b3a3;
+  --secondary-color: #262c22;
+  --text-color: #505350;
+  --headings-color: rgb(80, 77, 77);
+  --carbon-background-color: white;
+  --white: white;
 }
 
-.small-heading-text{
-    font-size: 2rem;
-    color: var(--headings-color);
-    font-family: 'Open Sans', sans-serif;
+/* ******************* Typography*************** */
+
+.large-heading-text {
+  font-size: 3rem;
+  color: var(--headings-color);
+  font-family: "Open Sans", sans-serif;
 }
 
-.large-paragraph-text{
-    font-size: 1.5rem;
-    color: var(--text-color);
-    font-family: 'Hind', sans-serif;
+.small-heading-text {
+  font-size: 2rem;
+  color: var(--headings-color);
+  font-family: "Open Sans", sans-serif;
 }
 
-.small-paragraph-text{
-    font-size: 1.2rem;
-    color: var(--text-color);
-    font-family: 'Hind', sans-serif;
+.large-paragraph-text {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  font-family: "Hind", sans-serif;
 }
 
+.small-paragraph-text {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  font-family: "Hind", sans-serif;
+}
 
 /**************************Spacing  *************************/
 
-.spacing-xs{
-   padding: 0.5rem; 
+.spacing-xs {
+  padding: 0.5rem;
 }
 
-.spacing-s{
-    padding: 1rem; 
- }
- .spacing-m{
-    padding: 2rem; 
- }
- .spacing-l{
-    padding: 2.5rem; 
- }
- .spacing-xl{
-    padding: 4rem; 
- }
+.spacing-s {
+  padding: 1rem;
+}
+.spacing-m {
+  padding: 2rem;
+}
+.spacing-l {
+  padding: 2.5rem;
+}
+.spacing-xl {
+  padding: 4rem;
+}
 
-
- .margin-1rem{
-     margin: 1rem;
- }
+.margin-1rem {
+  margin: 1rem;
+}
 /* *********************Border *************** */
 
-.border-2px{
-    border: 2px solid rgb(197, 194, 194);
+.border-2px {
+  border: 2px solid rgb(197, 194, 194);
 }
 
 /* **************Alignment ****************** */
-.flex-direction-row{
-    flex-direction: row;
-    align-items: center;
-    gap: 3rem;
+.flex-direction-row {
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
 }
 
 /* ************************************ */
-
