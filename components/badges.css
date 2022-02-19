@@ -1,127 +1,121 @@
-*{
-    box-sizing: border-box;
-   margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.all-badges{
-    display: flex;
-    flex-direction: column;
+.all-badges {
+  display: flex;
+  flex-direction: column;
 }
 
-.relative-container{
-    display: inline;
-    position: relative;
-    margin-top: 2rem;
-    width: max-content;
+.relative-container {
+  display: inline;
+  position: relative;
+  margin-top: 2rem;
+  width: max-content;
 }
 
-.number{
-    top: -0.5rem;
-    right: -1rem;
-    position: absolute;
-    background-color:rgb(80, 80, 224) ;
-    padding: 3px 7px;
-    font-size: 0.75rem;
-    opacity: 1;
-    color:white;
-    border-radius: 25px;
+.number {
+  top: -0.5rem;
+  right: -1rem;
+  position: absolute;
+  background-color: rgb(80, 80, 224);
+  padding: 3px 7px;
+  font-size: 0.75rem;
+  opacity: 1;
+  color: white;
+  border-radius: 25px;
 }
 /******************Text with large badge*********** */
-.large{
-    font-size: 1rem;
-right: -1.5rem;
-top: -1.5rem;
-padding: 8px 11px;
-border-radius: 50%;
+.large {
+  font-size: 1rem;
+  right: -1.5rem;
+  top: -1.5rem;
+  padding: 8px 11px;
+  border-radius: 50%;
 }
 /* *****************Button with a badge on the left*********** */
-.third-badge{
-    display: flex;
-    align-items: center;
+.third-badge {
+  display: flex;
+  align-items: center;
 }
 
-.relative-button-container{
-    position: relative;
-   
+.relative-button-container {
+  position: relative;
 }
 
-.button-badge{
-    position: absolute;
-    top: -15px;
-    background-color:rgb(80, 80, 224) ;
-    padding: 3px 7px;
-    border-radius: 25px;
-    
+.button-badge {
+  position: absolute;
+  top: -15px;
+  background-color: rgb(80, 80, 224);
+  padding: 3px 7px;
+  border-radius: 25px;
 }
 
-.btn{
-  background-color: blueviolet;  
+.btn {
+  background-color: blueviolet;
   border: none;
-  margin-left: .2rem;
+  margin-left: 0.2rem;
   padding: 0.5rem;
   color: white;
   border-radius: 0.2rem;
 }
 
-.badge-button{
-    padding-bottom: 2.5rem;
+.badge-button {
+  padding-bottom: 2.5rem;
 }
-
 
 /* *********************Button Toggles badge visibility ***********/
 
-.button-badge-two{
-    right: -12px;
+.button-badge-two {
+  right: -12px;
 }
 
-.btn-two{
-    background-color: white;
-    color: black;
-    box-shadow: 1px 2px 1px 1px rgba(156, 112, 112, 0.1);
+.btn-two {
+  background-color: white;
+  color: black;
+  box-shadow: 1px 2px 1px 1px rgba(156, 112, 112, 0.1);
 }
 
 /* **********************Icon with a Badge************* */
 
-.icon-badge{
- left: 10px;
- color: white;
- font-size: x-small;
+.icon-badge {
+  left: 10px;
+  color: white;
+  font-size: x-small;
 }
-
 
 /* **************For profile badge********* */
 
-.profile-badge-large{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
+.profile-badge-large {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
 }
 
-.count{
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    background-color: rgb(255, 4, 4);
-    width: 25px;
-    height: 25px;
-    padding-left: 7px;
-    border-radius: 50%;
-    color: red;
-    border: 2px solid rgb(250, 250, 250) ;
-    padding-top: 1px;
+.count {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  background-color: rgb(255, 4, 4);
+  width: 25px;
+  height: 25px;
+  padding-left: 7px;
+  border-radius: 50%;
+  color: red;
+  border: 2px solid rgb(250, 250, 250);
+  padding-top: 1px;
 }
 
-.profile-badge-small{
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
+.profile-badge-small {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
 }
 
-.small{
-    width: 15px;
-    height: 15px;
-right: -3px;
-background-color: green;
+.small {
+  width: 15px;
+  height: 15px;
+  right: -3px;
+  background-color: green;
 }
-
-
