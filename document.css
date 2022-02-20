@@ -2,88 +2,68 @@
 @import url(/index.css);
 @import url(/Drawer/drawer.css);
 
-.parent-container{
-    display: grid;
-    grid-template-columns: 250px 1fr 1fr;
-    grid-template-areas:
+.parent-container {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  grid-template-areas:
     "header header header"
     "scroller web-body web-body";
 }
 
-.color-text{
-    color: var(--primary-color);
+.color-text {
+  color: var(--primary-color);
 }
 
-.header{
-    grid-area: header;
+.header {
+  grid-area: header;
 }
 
-.scroller{
-grid-area: scroller;
-overflow-y: auto;
-overflow-x: auto;
-position: sticky;
-top: 0;
-align-self: start;
-margin-top: 1rem;
-color: var(--primary-color);
+.scroller {
+  grid-area: scroller;
+  border-right: 1px solid var(--text-color);
+  overflow-x: auto;
+  position: sticky;
+  top: 0;
+  align-self: start;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  color: var(--primary-color);
 }
 
-.scroll-link{
-text-decoration: none;
-color: var(--primary-color);
+.scroller p {
+  font-size: larger;
+  font-weight: 900;
 }
 
-.web-body{
-    grid-area: web-body;
-    padding: 1rem;
+.scroll-link {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
-
-/* 
-  .code-snippet-display{
-     box-sizing: border-box;
-    width: 100%;
-    max-height: 300px;
-    padding: 1rem 0;
-    background-color: #FAFAFA;
-    margin: 2rem 0;
-    overflow: auto; 
-    width: 100%;
-} 
-
- .code-snippet-display iframe{
-width: 100%;
-border: none;
-}  */
-
-.iframe-container{
-    box-sizing: border-box;
-    width: 100%;
-    max-height: 300px;
-    padding: 1rem 0;
-    background-color: var(carbon-background-color);
- 
-    margin: 2rem 0;
-    overflow: auto; 
-    width: 100%; 
-    /* margin-top: 2rem;
-width: 100%;
-height: 100%; */
+.web-body {
+  grid-area: web-body;
+  padding: 1rem;
 }
 
-.iframe-container iframe{
-    width: 100%;
-    border: none; 
-   transform: scale(1);
-   overflow: hidden;
-   height: 100%;
+.iframe-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 300px;
+  padding: 1rem 0;
+  background-color: var(carbon-background-color);
+  margin: 2rem 0;
+  overflow: auto;
+  width: 100%;
 }
 
-.brand a{
-    text-decoration: none;
+.iframe-container iframe {
+  width: 100%;
+  border: none;
+  transform: scale(1);
+  overflow: hidden;
+  height: 100%;
 }
 
-/* code{
-    background-color: var(--primary-color);
-} */
+.brand a {
+  text-decoration: none;
+}

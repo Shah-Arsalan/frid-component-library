@@ -1,73 +1,68 @@
-
 @import url(/main.css);
 
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-.buttons{
-    position: relative;
-  
+.buttons {
+  position: relative;
 }
 
-.primary-button{
-    background-color: var(--primary-color);
-    padding: 0.8rem;
-    border: 1px solid;
-    border-radius: 0.5rem;
-    color: white;
-    text-decoration: none;
-
+.primary-button {
+  background-color: var(--primary-color);
+  padding: 0.8rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  color: white;
+  text-decoration: none;
 }
 
-.primary-button:hover{
-    background-color: #9dcfbc;
+.primary-button:hover {
+  background-color: #3b8d82;
 }
 
-.secondary-button{
-    background-color: white;
-    padding: 0.8rem;
-    border: 2px solid;
-    border-radius: 0.5rem;
-    color: var(--primary-color); 
- text-decoration: none;
-cursor: pointer;
+.secondary-button {
+  background-color: white;
+  padding: 0.8rem;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.secondary-button:hover{
-    background-color: rgb(223, 239, 240);
-}
-  
-
-.link-button{
-padding: 0.5rem 1rem ;
-border: 1px solid;
-background-color: blue;
-color: white;
+.secondary-button:hover {
+  background-color: rgb(223, 239, 240);
 }
 
-.link-button:hover{
-    background-color: rgb(52, 52, 245);
+.link-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  background-color: blue;
+  color: white;
 }
 
-.icon-button{
-    padding: 0.3rem 1rem;
-border: 1px solid;
-background-color: white;
-color:#85DCBA;
-border-radius: 0.5rem;
+.link-button:hover {
+  background-color: rgb(52, 52, 245);
 }
 
-.icon-button:hover{
-    background-color: #d3e2dc;
+.icon-button {
+  padding: 0.3rem 1rem;
+  border: 1px solid;
+  background-color: white;
+  color: #85dcba;
+  border-radius: 0.5rem;
 }
 
-.floating-action-button{
-    padding: 1rem;
-    border-radius: 50%;
-    border: 1px transparent;
-    background-color: #85DCBA;
-   box-shadow:  10px 10px 5px #aaaaaa;
-    /* position: fixed; */
-    
+.icon-button:hover {
+  background-color: #9caca6;
+}
+
+.floating-action-button {
+  padding: 1rem;
+  border-radius: 50%;
+  border: 1px transparent;
+  background-color: #85dcba;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  /* position: fixed; */
 }

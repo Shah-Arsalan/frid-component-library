@@ -43,13 +43,13 @@
 .logo {
   margin-top: 0.5rem;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .details-paragraph {
   max-width: 600px;
   text-align: center;
-  margin: 2rem auto;
+  margin: 4rem auto;
   color: var(--text-color);
   font-weight: 800;
 }
@@ -72,7 +72,7 @@
   display: flex;
   margin-top: 5rem;
   background-color: var(--secondary-color);
-  padding: 5rem;
+  padding: 3rem;
   justify-content: center;
 }
 
@@ -83,4 +83,8 @@
 .border-socials {
   background-color: var(--secondary-color);
   font-size: x-large;
+}
+
+.socials .primary-button {
+  margin-right: 1rem;
 }

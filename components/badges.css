@@ -16,23 +16,27 @@
 }
 
 .number {
-  top: -0.5rem;
+  width: 18px;
+  height: 18px;
+  top: -0.2rem;
   right: -1rem;
   position: absolute;
   background-color: rgb(80, 80, 224);
-  padding: 3px 7px;
   font-size: 0.75rem;
   opacity: 1;
   color: white;
   border-radius: 25px;
+  text-align: center;
 }
 /******************Text with large badge*********** */
 .large {
+  width: 30px;
+  height: 30px;
   font-size: 1rem;
-  right: -1.5rem;
-  top: -1.5rem;
-  padding: 8px 11px;
   border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  top: -0.9rem;
 }
 /* *****************Button with a badge on the left*********** */
 .third-badge {
