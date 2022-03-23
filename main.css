@@ -13,6 +13,7 @@
 @import url(/components/list.css);
 @import url(/components/snackbar.css);
 @import url(/components/textUtility.css);
+@import url(/components/modal.css);
 @import url(/Drawer/drawer.css);
 
 * {
@@ -32,6 +33,8 @@
   --carbon-background-color: white;
   --white: white;
   --grey: #696969;
+  --red: #ff0000;
+  --green: #00ff00;
 }
 
 /* ******************* Typography*************** */
