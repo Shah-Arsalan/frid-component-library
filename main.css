@@ -12,7 +12,7 @@
 @import url(/components/header.css);
 @import url(/components/list.css);
 @import url(/components/snackbar.css);
-
+@import url(/components/textUtility.css);
 @import url(/Drawer/drawer.css);
 
 * {
@@ -31,6 +31,7 @@
   --headings-color: rgb(80, 77, 77);
   --carbon-background-color: white;
   --white: white;
+  --grey: #696969;
 }
 
 /* ******************* Typography*************** */
