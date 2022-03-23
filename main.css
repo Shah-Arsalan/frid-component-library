@@ -14,6 +14,7 @@
 @import url(/components/snackbar.css);
 @import url(/components/textUtility.css);
 @import url(/components/modal.css);
+@import url(/components/rating.css);
 @import url(/Drawer/drawer.css);
 
 * {
@@ -35,6 +36,7 @@
   --grey: #696969;
   --red: #ff0000;
   --green: #00ff00;
+  --rating-color: #c59b08;
 }
 
 /* ******************* Typography*************** */
