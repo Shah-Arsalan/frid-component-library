@@ -1,0 +1,9 @@
+.rating__container {
+  float: left;
+  height: 2.183rem;
+  padding: 0 0.625rem;
+}
+
+.fa-star:hover {
+  color: var(--rating-color);
+}
